@@ -8,12 +8,12 @@
 5. [References](#references)
 
 ## Overview
-- To learn block chain or Web3, we need below tool kits
+- To learn Blockchain or Web3, we need below tool kits
   - **Framework:**
     - `Solana:` It is a public hosted platform.
     - `Hyperledger:` It is a opensource platform that allows to create company internal blockchains.
   - **Programming Language:**
-    - `Rust:` This is base programming lanugage on which below we can interact to Web3 Framework. 
+    - `Rust:` This is the base programming lanugage on which below we can interact to Web3 Framework. 
     - `Chaincode:` This is used by Hyperledger.
     - `Solidity:` This is used by Ethereum.
 
