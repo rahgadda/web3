@@ -13,7 +13,7 @@
     - `Solana:` It is a public hosted platform.
     - `Hyperledger:` It is a opensource platform that allows to create company internal blockchains.
   - **Programming Language:**
-    - `Rust:` This is base programming lanugage on which . 
+    - `Rust:` This is base programming lanugage on which below we can interact to Web3 Framework. 
     - `Chaincode:` This is used by Hyperledger.
     - `Solidity:` This is used by Ethereum.
 
