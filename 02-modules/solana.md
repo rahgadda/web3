@@ -26,3 +26,4 @@
 - [Solana Cookbook](https://solanacookbook.com/#contributing)
 - [Solana Bootcamp](https://chain.link/bootcamp/solana-2022-on-demand)
 - [Solana Node Dashboard](https://solanabeach.io/)
+- [Solana Playground](https://beta.solpg.io/)
