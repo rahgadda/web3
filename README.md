@@ -33,6 +33,7 @@
 
 ## References
 - [Why Solana](https://www.investopedia.com/solana-5210472)
-- [Inspiration](https://www.youtube.com/watch?v=ERAxd8gl1Eg&list=PLVKLWop9wWA9n9NQZ2GURoB_a1gOezN_e&index=3)
+- [Harkirat Singh - Inspiration](https://www.youtube.com/watch?v=ERAxd8gl1Eg&list=PLVKLWop9wWA9n9NQZ2GURoB_a1gOezN_e&index=3)
+- [DApp University - Inspiration](https://www.youtube.com/watch?v=VH9Q2lf2mNo)
 - [Hyperledger](https://www.hyperledger.org/)
 - [Freecodecamp - Learn Blockchain](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
