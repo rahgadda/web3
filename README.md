@@ -12,6 +12,7 @@
   - **Framework:**
     - `Solana:` It is a public hosted platform.
     - `Hyperledger:` It is a opensource platform that allows to create company internal blockchains.
+    - `Celestia:`
   - **Programming Language:**
     - `Rust:` This is the base programming lanugage on which Web3 Framework can interact. 
     - `Chaincode:` This is used by Hyperledger.
