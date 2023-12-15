@@ -37,4 +37,5 @@
 - [DApp University - Inspiration](https://www.youtube.com/watch?v=VH9Q2lf2mNo)
 - [Hyperledger](https://www.hyperledger.org/)
 - [Freecodecamp - Learn Blockchain](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
-- [Local Block Chain - Truffle Ganache](https://trufflesuite.com/ganache/)
+- [Local Blockchain - Truffle Ganache](https://trufflesuite.com/ganache/)
+- [Connect to Blockchain - Metamask](https://metamask.io/)
