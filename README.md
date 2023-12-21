@@ -21,12 +21,14 @@
 
 ## History
 - The world of `Blockchain` started with a crypto currency `Bitcoin`.
-  - It works on below foundation principles
+  - It works on below foundation principles:
     - **Cryptography:** 
       - It is the process of hiding or coding information so that only the person a message was intended for can read it.
-      - Different encryption algorithms are used to convert plain text into cypher text.
+      - Different encryption algorithms are used to convert plain text into cypher text. These techniques are called encryption and decryption.
+      ![](./01-images/Encryption-Decryption.png)
       - There are different types of Cryptography encryption techniques: Symmetric, Asymmetric and Hashing.
-      - Symmetric encryption uses same keys to encrypt and decrypt. Asymmetric encryption uses public and private keys to to encrypt and decrypt.
+        - Symmetric encryption uses same keys to encrypt and decrypt. Asymmetric encryption uses public and private keys to to encrypt and decrypt.
+        ![](./01-images/Asymmetric-vs-Symmetric.png)
       - It has below building blocks:
         - `Public & Private Key:`
           - `Public Key:` 
