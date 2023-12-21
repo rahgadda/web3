@@ -20,6 +20,28 @@
     - `Solidity:` Ethereum uses this.
 
 ## History
+- The world of `Blockchain` started with a crypto currency `Bitcoin`.
+  - It works on below foundation principles
+    - **Cryptography:** 
+      - It is the process of hiding or coding information so that only the person a message was intended for can read it.
+      - Different encryption algorithms are used to convert plain text into cypher text.
+      - There are different types of Cryptography encryption techniques: Symmetric, Asymmetric and Hashing.
+      - Symmetric encryption uses same keys to encrypt and decrypt. Asymmetric encryption uses public and private keys to to encrypt and decrypt.
+      - It has below building blocks:
+        - `Public & Private Key:`
+          - `Public Key:` 
+            - This is shared with everyone. 
+          - `Private Key:`
+            - This is not shared with everyone and is kept as a secret.
+          - `Confidentiality:`
+            - Client/Sender will encrypt data that he wanted to send using the public key available.
+            - This will allow only Server/Consumer with valid private key only to read the data and ensure the data packets are not tampered.  
+          - `Signature:`
+            - Server/Consumer will encrypt data that he wanted to send using his secret private key.
+            - This can be decrpted using public key available ensuring the data is received only from Server/Consumer and not tampered.
+
+          ![](./01-images/HowInternetWorks.png)
+        - `Algorithm:`
 
 ## Modules
 
