@@ -20,51 +20,51 @@
     - `Solidity:` Ethereum uses this.
 
 ## History
-- The world of `Blockchain` started with a crypto currency `Bitcoin`.
+- The world of `Blockchain` started with the crypto currency `Bitcoin`.
   - It works on below foundation principles:
     - **Cryptography:** 
       - It is the process of hiding or coding information so that only the person a message was intended for can read it.
       - Different encryption algorithms are used to convert plain text into cypher text. These techniques are called encryption and decryption.
       ![](./01-images/Encryption-Decryption.png)
       - There are different types of Cryptography encryption techniques: Symmetric, Asymmetric and Hashing.
-        - Symmetric encryption uses same keys to encrypt and decrypt. Asymmetric encryption uses public and private keys to to encrypt and decrypt.
+        - Symmetric encryption uses the same keys to encrypt and decrypt. Asymmetric encryption uses public and private keys to encrypt and decrypt.
         ![](./01-images/Asymmetric-vs-Symmetric.png)
-      - It has below building blocks:
+      - It has the below building blocks:
         - `Public & Private Key:`
           - `Public Key:` 
             - This is shared with everyone. 
           - `Private Key:`
             - This is not shared with everyone and is kept as a secret.
           - `Confidentiality:`
-            - Client/Sender will encrypt data that he wanted to send using the public key available.
-            - This will allow only Server/Consumer with valid private key only to read the data and ensure the data packets are not tampered.  
+            - Client/Sender will encrypt the data he wants to send using the available public key.
+            - This will allow only the Server/Consumer with a valid private key to read the data and ensure the data packets are not tampered with.  
           - `Signature:`
-            - Server/Consumer will encrypt data that he wanted to send using his secret private key.
-            - This can be decrpted using public key available ensuring the data is received only from Server/Consumer and not tampered.
+            - Server/Consumer will encrypt data that he wants to send using his secret private key.
+            - This can be decrypted using the public key available ensuring the data is received only from the Server/Consumer and not tampered with.
 
           ![](./01-images/HowInternetWorks.png)
         - `Algorithm:`
           - Algorithms are the rules or instructions for the encryption process. 
-          - The key length, functionality, and features of the encryption system in use determine the effectiveness of the encryption. Typically length of keys range from 128 to 256 bits.
+          - The key length, functionality, and features of the encryption system in use determine the effectiveness of the encryption. Typically the length of keys ranges from 128 to 256 bits.
           - An encryption key is a randomized string of bits used to encrypt and decrypt data. The longer keys are harder to break.
           - `RSA - Rivest Shamir Adleman:`
             - It is a public-key encryption algorithm and the standard for encrypting data sent over the internet.
             - RSA is an asymmetric algorithm because it uses a pair of keys.
-            - It uses public key to encrypt the message and a private key to decrypt it.
-            - It is widely used in securing data transmission, authentication, and digital signatures. It's particularly efficient for securing communications over the internet.
+            - It uses the public key to encrypt the message and a private key to decrypt it.
+            - It is widely used in securing data transmission, authentication, and digital signatures. It's particularly efficient for securing communications over the Internet.
             - HTTPS - SSL uses RSA.
           - `SHA - Secure Hashing Algorithm:`
             - It is the common name for a family of cryptographic hash functions.
             - It is used to generate a fixed-size hash value (digest) from input data of variable length.
-            - Bitcoin usese SHA-256.
+            - Bitcoin uses SHA-256.
     - **Distributed Ledger:**
-      - Ledger refer to book keeping of all the transactions that take place in an organization or a business unit.
-      - Traditionally banks or online platforms use databases to store this data to indicate movements of resources like money, goods etc.. between registered parties. These are prone to hacking and un-authorized transactions creating trustless eco-system.
-      - To solve this problem a free market ideology called `Bitcoin` was invented in `2008 by Satoshi Nakamoto`, an unknown person. Use of bitcoin as a currency `began in 2009`, with the release of its `open-source implementation`.
-        - `Nodes:` These are computation building blocks that create peer-to-peer network to verify transactions through cryptography and record them in a public distributed ledger.
-        - `Mining:` Consensus between nodes on final list of transactions is achieved using a computationally intensive system based on proof-of-work.
+      - Ledger refers to the bookkeeping of all the transactions that take place in an organization or a business unit.
+      - Traditionally banks or online platforms use databases to store this data to indicate movements of resources like money, goods etc.. between registered parties. These are prone to hacking and unauthorised transactions creating a trustless eco-system.
+      - To solve this problem a free market ideology called `Bitcoin` was invented in `2008 by Satoshi Nakamoto`, an unknown person. The use of Bitcoin as a currency `began in 2009`, with the release of its `open-source implementation`.
+        - `Nodes:` These are computation building blocks that create peer-to-peer networks to verify transactions through cryptography and record them in a public distributed ledger.
+        - `Mining:` Consensus between nodes on the final list of transactions is achieved using a computationally intensive system based on proof-of-work.
         - `Block:` 
-          - It is contain information of transacation like names, places, times, cost,previous block hash, current block hash, markle tree and block ID, etc or any other type of data. 
+          - It contains information on transactions like names, places, times, cost, previous block hash, current block hash, Markle tree and block ID, etc or any other type of data. 
           - These blocks cannot be deleted or updated once created.
         - `Blockchain:`
           - Individual blocks are cryptographically verified and chained up to form an immutable chain called a blockchain.
@@ -85,8 +85,8 @@
 - **DAO's:** Decentalized Autonomus Organizations
 - **DApp:** Decentalized Application
 - **NFT:** Non Fudgable Tokens
-- **Blockchain:** It is a collaboration-enabling technology that replace `brand-based trust` with `math-based trust` by shifting the hosting, execution, enforcement, and custody mechanisms of a contract to software logic run across a decentralized network that no individual participant can undermine. `Trust Minimized Agrements`
-- **Blockchain Oracle:** These are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based upon inputs and outputs from the real world. More details available [here](https://chain.link/education/blockchain-oracles#types-of-blockchain-oracles)
+- **Blockchain:** It is a collaboration-enabling technology that replaces `brand-based trust` with `math-based trust` by shifting the hosting, execution, enforcement, and custody mechanisms of a contract to software logic run across a decentralized network that no individual participant can undermine. `Trust Minimized Agreements`
+- **Blockchain Oracle:** These are entities that connect blockchains to external systems, thereby enabling smart contracts to execute based on inputs and outputs from the real world. More details available [here](https://chain.link/education/blockchain-oracles#types-of-blockchain-oracles)
 - **Hybrid Smart Contracts:** It combines code running on the blockchain (on-chain) with data and computation from outside the blockchain (off-chain) provided by decentralized oracle networks.
 
 ## References
