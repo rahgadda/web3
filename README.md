@@ -75,6 +75,7 @@
 
         ![](./01-images/blockchain.jpeg)
         ![](./01-images/blockchain-node.jpeg)
+        ![](./01-images/ConsensusAlgo.png)
 
 ## Modules
 
