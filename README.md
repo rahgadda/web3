@@ -8,6 +8,12 @@
 5. [References](#references)
 
 ## Overview
+- Web 3.0 in the next/future iteration of the internet that aims to revolutionize how we interact, transact, and share information online.
+- Key aspects:
+  - Decentralization
+  - Distributed Ledger
+  - User Control and Privacy
+  
 - To learn Blockchain or Web3, we need below tool kits
   - **Framework:**
     - `Ethereum`: 
