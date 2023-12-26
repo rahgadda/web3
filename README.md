@@ -99,6 +99,7 @@
         ![](./01-images/ConsensusAlgo.png)
 
 ## Modules
+- [Rust](./02-modules/rust.md)
 - [Solana](./02-modules/solana.md)
 
 ## Glossary
