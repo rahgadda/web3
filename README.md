@@ -44,6 +44,13 @@
 
           ![](./01-images/HowInternetWorks.png)
         - `Algorithm:`
+          - Algorithms are the rules or instructions for the encryption process. 
+          - The key length, functionality, and features of the encryption system in use determine the effectiveness of the encryption. Typically length of keys range from 128 to 256 bits.
+          - An encryption key is a randomized string of bits used to encrypt and decrypt data. The longer keys are harder to break.
+          - `RSA:`
+            - It is a public-key encryption algorithm and the standard for encrypting data sent over the internet.
+            - RSA is an asymmetric algorithm because it uses a pair of keys.
+            - It uses public key to encrypt the message and a private key to decrypt it.
 
 ## Modules
 
