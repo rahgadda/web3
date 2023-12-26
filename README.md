@@ -10,14 +10,29 @@
 ## Overview
 - To learn Blockchain or Web3, we need below tool kits
   - **Framework:**
-    - `Solana:` It is a public hosted platform.
-    - `Ethereum`: It is a public hosted platform.
-    - `Hyperledger:` It is an open-source platform that allows to creation of company internal blockchains.
-    - `Celestia:`
+    - `Ethereum`: 
+      - It is one of the most well-known blockchain platforms, primarily utilized for creating smart contracts and decentralized applications.
+      - It introduced the concept of programmable smart contracts, enabling developers to build decentralized applications on its blockchain.
+      - Its blockchain uses a consensus mechanism called Proof of Stake (PoS), aiming to transition from the current energy-intensive Proof of Work (PoW).
+    - `Solana:` 
+      - It is a high-performance blockchain platform designed for decentralized applications (dApps) and crypto projects.
+      - It aims to provide fast transaction speeds and low fees through its unique technological approach called Proof of History (PoH) combined with Proof of Stake (PoS).
+    - `Hyperledger:` 
+      - It isn’t a single blockchain but a collection of open-source frameworks and tools for building enterprise-grade blockchain solutions.
+      - It’s hosted by the Linux Foundation.
+      - It has projects like Fabric, Sawtooth, Indy, and Besu offer modular frameworks suitable for different use cases in industries such as finance, supply chain, healthcare, and more.
+      - Unlike Ethereum/Solana it is often used for permissioned networks, meaning access is restricted to certain participants, providing privacy and control.
   - **Programming Language:**
-    - `Rust:` This is the base programming language on which Web3 Framework can interact. 
-    - `Chaincode:` This is used by Hyperledger.
-    - `Solidity:` Ethereum uses this.
+    - `Rust:` 
+      - It is a systems programming language that prioritizes safety, speed, and concurrency.
+      - Solana is known for its use of the Rust programming language in its development.
+      - Solana's core software, including its blockchain protocol and ecosystem tools, is built using Rust.
+    - `Solidity:`
+      - It is the programming language primarily used for developing smart contracts on the Ethereum blockchain.
+      - Smart contracts written in Solidity are deployed and executed on the Ethereum Virtual Machine (EVM).
+    - `Chaincode:`
+      - It refers to the term often used in the context of Hyperledger Fabric, which represents the smart contracts or business logic deployed and executed on a Hyperledger Fabric network.
+      - Chaincode is written in programming languages such as Go, Node.js, or Java and is installed and invoked on the Hyperledger Fabric network by network participants to perform specific functions or execute transactions.
 
 ## History
 - The world of `Blockchain` started with the crypto currency `Bitcoin`.
