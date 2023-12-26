@@ -57,6 +57,13 @@
             - It is the common name for a family of cryptographic hash functions.
             - It is used to generate a fixed-size hash value (digest) from input data of variable length.
             - Bitcoin usese SHA-256.
+    - **Distributed Ledger:**
+      - Ledger refer to book keeping of all the transactions that take place in an organization or a business unit.
+      - Traditionally banks or online platforms use databases to store this data to indicate movements of resources like money, goods etc.. between registered parties. These are prone to hacking and un-authorized transactions creating trustless eco-system.
+      - To solve this problem a free market ideology called `Bitcoin` was invented in `2008 by Satoshi Nakamoto`, an unknown person. Use of bitcoin as a currency `began in 2009`, with the release of its `open-source implementation`.
+        - `Nodes:` These are computation building blocks that create peer-to-peer network to verify transactions through cryptography and record them in a public distributed ledger.
+        - `Mining:` Consensus between nodes on final list of transactions is achieved using a computationally intensive system based on proof-of-work.
+        - `Block:` It is an approved transaction with corresponding data like names, places, times, cost, or any other type of data.
 
 ## Modules
 
