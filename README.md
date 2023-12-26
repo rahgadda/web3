@@ -78,6 +78,7 @@
         ![](./01-images/ConsensusAlgo.png)
 
 ## Modules
+- [Solana](./02-modules/solana.md)
 
 ## Glossary
 - **DeFi:** Decentalized Finance
