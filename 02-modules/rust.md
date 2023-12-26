@@ -20,10 +20,13 @@
 - Rust grew out of a personal project begun in `2006` by `Mozilla Research employees Steven Klabnik and Graydon Hoare`.
 - Mozilla began sponsoring the project in `2009` as a part of the ongoing development of an experimental browser engine called `Servo`, which was officially announced by `Mozilla in 2010`.
 - Its `first stable release` was made available to the public in `2015`.
+- An independent organisation `Rust Foundation` was found on `08 Feb 2021` with board of directors from different companies. Details available [here](https://foundation.rust-lang.org/news/2021-02-08-hello-world/)
 
 ## Reference
-- [rust-lang](https://www.rust-lang.org/)
+- [Rust Lang](https://www.rust-lang.org/)
 - [Github rust-lang](https://github.com/rust-lang)
+- [Foundation](https://foundation.rust-lang.org/)
+- [Package Registry - crates.io](https://crates.io/)
 
 ## Tutorial
 - [Rust Programming - FreeCodeCamp](https://www.youtube.com/watch?v=BpPEoZW5IiY)
