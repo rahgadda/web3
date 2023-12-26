@@ -63,7 +63,18 @@
       - To solve this problem a free market ideology called `Bitcoin` was invented in `2008 by Satoshi Nakamoto`, an unknown person. Use of bitcoin as a currency `began in 2009`, with the release of its `open-source implementation`.
         - `Nodes:` These are computation building blocks that create peer-to-peer network to verify transactions through cryptography and record them in a public distributed ledger.
         - `Mining:` Consensus between nodes on final list of transactions is achieved using a computationally intensive system based on proof-of-work.
-        - `Block:` It is an approved transaction with corresponding data like names, places, times, cost, or any other type of data.
+        - `Block:` 
+          - It is contain information of transacation like names, places, times, cost,previous block hash, current block hash, markle tree and block ID, etc or any other type of data. 
+          - These blocks cannot be deleted or updated once created.
+        - `Blockchain:`
+          - Individual blocks are cryptographically verified and chained up to form an immutable chain called a blockchain.
+          - The same chain is then distributed to all the nodes across the network via a P2P network.
+          - Instead of a centralized database, all the transactions (data) that are shared across the nodes are contained in blocks, which are chained together to create the ledger.
+          - All the data in the ledger is secured by cryptographic hashing and digital signature and validated by a consensus algorithm. 
+          - Nodes on the network participate to ensure that all copies of the data distributed across the network are the same.
+
+        ![](./01-images/blockchain.jpeg)
+        ![](./01-images/blockchain-node.jpeg)
 
 ## Modules
 
