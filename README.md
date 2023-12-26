@@ -47,10 +47,16 @@
           - Algorithms are the rules or instructions for the encryption process. 
           - The key length, functionality, and features of the encryption system in use determine the effectiveness of the encryption. Typically length of keys range from 128 to 256 bits.
           - An encryption key is a randomized string of bits used to encrypt and decrypt data. The longer keys are harder to break.
-          - `RSA:`
+          - `RSA - Rivest Shamir Adleman:`
             - It is a public-key encryption algorithm and the standard for encrypting data sent over the internet.
             - RSA is an asymmetric algorithm because it uses a pair of keys.
             - It uses public key to encrypt the message and a private key to decrypt it.
+            - It is widely used in securing data transmission, authentication, and digital signatures. It's particularly efficient for securing communications over the internet.
+            - HTTPS - SSL uses RSA.
+          - `SHA - Secure Hashing Algorithm:`
+            - It is the common name for a family of cryptographic hash functions.
+            - It is used to generate a fixed-size hash value (digest) from input data of variable length.
+            - Bitcoin usese SHA-256.
 
 ## Modules
 
