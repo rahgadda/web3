@@ -31,13 +31,14 @@
   ``` 
 - Verification
   ```bash
+  # Compiler
   rustc --version
   rustup update
   rustup self uninstall
   
   # Cargo is Rust’s build system and package manager
   cargo --version
-  cargo new <<project_name>>
+  cargo new project_name
   cargo build
   cargo run
   cargo check
