@@ -32,11 +32,12 @@
   ``` 
 - Verification
   ```bash
-  # Compiler
+  # Rust Native Tools
   rustc --version
   rustup update
+  rustc file_name.rs # Compilation
+  rustfmt file_name.rs # File Formatting
   rustup self uninstall
-  rustfmt file_name.rs
   
   # Cargo is Rust’s build system and package manager
   cargo --version
