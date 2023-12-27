@@ -3,8 +3,9 @@
 ## Table of Content
 1. [Overview](#overview)
 2. [History](#history)
-3. [References](#references)
-4. [Tutorial](#tutorial)
+3. [Installation](#installation)
+4. [References](#references)
+5. [Tutorial](#tutorial)
 
 ## Overview
 - Programming languages like C and C++ are very fast because they support developers to direct work with Memory(RAM). This provides speed but causes a different problem like memory management bugs, data races, and other common issues. 
@@ -20,7 +21,27 @@
 - Rust grew out of a personal project begun in `2006` by `Mozilla Research employees Steven Klabnik and Graydon Hoare`.
 - Mozilla began sponsoring the project in `2009` as a part of the ongoing development of an experimental browser engine called `Servo`, which was officially announced by `Mozilla in 2010`.
 - Its `first stable release` was made available to the public in `2015`.
-- An independent organisation `Rust Foundation` was found on `08 Feb 2021` with board of directors from different companies. Details available [here](https://foundation.rust-lang.org/news/2021-02-08-hello-world/)
+- An independent organization `Rust Foundation` was found on `08 Feb 2021` with board of directors from different companies. Details available [here](https://foundation.rust-lang.org/news/2021-02-08-hello-world/)
+
+## Installation
+- Windows installer available [here](https://www.rust-lang.org/tools/install)
+- For Linux
+  ```bash
+  curl --proto '=https' --tlsv1.2 https://sh.rustup.rs -sSf | sh
+  ``` 
+- Verification
+  ```bash
+  rustc --version
+  rustup update
+  rustup self uninstall
+  
+  # Cargo is Rust’s build system and package manager
+  cargo --version
+  cargo new <<project_name>>
+  cargo build
+  cargo run
+  cargo check
+  ```
 
 ## Reference
 - [Rust Lang](https://www.rust-lang.org/)
@@ -30,3 +51,5 @@
 
 ## Tutorial
 - [Rust Programming - FreeCodeCamp](https://www.youtube.com/watch?v=BpPEoZW5IiY)
+- [Rust Book](https://doc.rust-lang.org/book/ch01-01-installation.html)
+- [Rust Examples](https://github.com/rust-lang/rustlings/)
