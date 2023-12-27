@@ -41,7 +41,7 @@
       - Chaincode is written in programming languages such as Go, Node.js, or Java and is installed and invoked on the Hyperledger Fabric network by network participants to perform specific functions or execute transactions.
 
 ## History
-- The world of `Blockchain` started with the crypto currency `Bitcoin`.
+- The world of `Blockchain` started with the crypto currency `Bitcoin` based on paper available [here](https://bitcoin.org/bitcoin.pdf).
   - It works on below foundation principles:
     - **Cryptography:** 
       - It is the process of hiding or coding information so that only the person a message was intended for can read it.
