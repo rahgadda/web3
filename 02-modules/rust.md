@@ -4,8 +4,9 @@
 1. [Overview](#overview)
 2. [History](#history)
 3. [Installation](#installation)
-4. [References](#references)
-5. [Tutorial](#tutorial)
+4. [Modules](#modules)
+5. [References](#references)
+6. [Tutorial](#tutorial)
 
 ## Overview
 - Programming languages like C and C++ are very fast because they support developers to direct work with Memory(RAM). This provides speed but causes a different problem like memory management bugs, data races, and other common issues. 
@@ -35,6 +36,7 @@
   rustc --version
   rustup update
   rustup self uninstall
+  rustfmt file_name.rs
   
   # Cargo is Rust’s build system and package manager
   cargo --version
@@ -42,6 +44,18 @@
   cargo build
   cargo run
   cargo check
+  ```
+
+## Modules
+- Hello World `main.rs`
+  ```rust
+  fn main(){
+      println!("Hello, world!");
+  }
+  ```
+  ```bash
+  rustc main.rs
+  ./main
   ```
 
 ## Reference
