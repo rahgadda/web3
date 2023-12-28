@@ -42,9 +42,9 @@
   # Cargo is Rust’s build system and package manager
   cargo --version
   cargo new project_name
-  cargo build
-  cargo run
-  cargo check
+  cargo build # compiles the project and generates the output.
+  cargo run # compiles and runs the project.
+  cargo check # quickly checks the code for errors without producing an executable.
   ```
 
 ## Modules
