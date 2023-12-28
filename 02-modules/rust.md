@@ -37,6 +37,7 @@
   rustup update # Update rust
   rustc file_name.rs # Compilation
   rustfmt file_name.rs # File Formatting
+  rustdoc # Generate HTML docs
   rustup self uninstall # Uninstall rust
   
   # Cargo is Rust’s build system and package manager
@@ -71,6 +72,19 @@
   cargo check
   cargo run
   ```
+- Comments
+  - `Line comments` start with `//` and continue until the end of the line.
+  - `Block comments` are enclosed between `/* & */` and can span multiple lines.
+  - `Doc comments` start with `///` or `//!` for documenting items. After starting document comment, `#` can be used to dictate Arguments, Returns & Examples using markdown format.
+- Variables
+  - `let` keyword is used to create variables.
+  - Variables are immutable by default, meaning once we give the variable a value, the value won’t change.
+  - To make a variable mutable, we add `mut` before the variable name.
+
+    ```rust
+    let apples = 5; // immutable
+    let mut bananas = 5; // mutable
+    ```
 
 ## Reference
 - [Rust Lang](https://www.rust-lang.org/)
