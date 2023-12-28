@@ -58,6 +58,9 @@
   rustc main.rs
   ./main
   ```
+  - `main()` is the starting function for code execution. It has no arguments.
+  - All functions are scoped using `{}`.
+  - `println!` is a macro.
 - `cargo` Hello World
   ```bash
   cargo new hello-world
