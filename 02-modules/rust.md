@@ -58,7 +58,7 @@
   rustc main.rs
   ./main
   ```
-- cargo Hello World
+- `cargo` Hello World
   ```bash
   cargo new hello-world
   cd hello-world
