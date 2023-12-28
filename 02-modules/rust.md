@@ -34,17 +34,17 @@
   ```bash
   # Rust Native Tools
   rustc --version
-  rustup update
+  rustup update # update rust
   rustc file_name.rs # Compilation
   rustfmt file_name.rs # File Formatting
-  rustup self uninstall
+  rustup self uninstall # Uninstall rust
   
   # Cargo is Rust’s build system and package manager
   cargo --version
-  cargo new project_name
-  cargo build # compiles the project and generates the output.
-  cargo run # compiles and runs the project.
-  cargo check # quickly checks the code for errors without producing an executable.
+  cargo new project_name # Create new project
+  cargo build # Compiles the project and generates the output.
+  cargo run # Compiles and runs the project.
+  cargo check # Quickly checks the code for errors without producing an executable.
   ```
 
 ## Modules
