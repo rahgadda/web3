@@ -37,7 +37,7 @@
   rustup update # Update rust
   rustc file_name.rs # Compilation
   rustfmt file_name.rs # File Formatting
-  rustdoc # Generate HTML docs
+  rustdoc --document-private-items --output-dir=./target/doc ./src/main.rs # Generate HTML docs
   rustup self uninstall # Uninstall rust
   
   # Cargo is Rust’s build system and package manager
