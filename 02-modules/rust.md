@@ -58,7 +58,16 @@
   rustc main.rs
   ./main
   ```
-- 
+- cargo Hello World
+  ```bash
+  cargo new hello-world
+  cd hello-world
+  
+  # Target folder is created where deliverable will be
+  # Cargo.toml will be created to track dependencies and packages
+  cargo check 
+  cargo run
+  ```
 
 ## Reference
 - [Rust Lang](https://www.rust-lang.org/)
