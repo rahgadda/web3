@@ -48,7 +48,7 @@
   ```
 
 ## Modules
-- Hello World `main.rs`
+- Hello World `main.rs`. Details are available [here](../03-code/00-rust/00-hello-world)
   ```rust
   fn main(){
       println!("Hello, world!");
@@ -61,12 +61,12 @@
   - `main()` is the starting function for code execution. It has no arguments.
   - All functions are scoped using `{}`.
   - `println!` is a macro.
-- `cargo` Hello World
+- `cargo` is a package manager like `npm` for `node`. Below are steps to create Hello World. Details are available [here](../03-code/00-rust/00-cargo)
   ```bash
   cargo new hello-world
   cd hello-world
   
-  # Target folder is created where deliverable will be
+  # Target folder is created where executable deliverables will be
   # Cargo.toml will be created to track dependencies and packages
   cargo check 
   cargo run
