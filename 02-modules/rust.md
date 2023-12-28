@@ -34,7 +34,7 @@
   ```bash
   # Rust Native Tools
   rustc --version
-  rustup update # update rust
+  rustup update # Update rust
   rustc file_name.rs # Compilation
   rustfmt file_name.rs # File Formatting
   rustup self uninstall # Uninstall rust
@@ -68,7 +68,7 @@
   
   # Target folder is created where executable deliverables will be
   # Cargo.toml will be created to track dependencies and packages
-  cargo check 
+  cargo check
   cargo run
   ```
 
