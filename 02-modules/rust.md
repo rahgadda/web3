@@ -72,11 +72,11 @@
   cargo check
   cargo run
   ```
-- Comments
+- Comments:
   - `Line comments` start with `//` and continue until the end of the line.
   - `Block comments` are enclosed between `/* & */` and can span multiple lines.
   - `Doc comments` start with `///` or `//!` for documenting items. After starting document comment, `#` can be used to dictate Arguments, Returns & Examples using markdown format.
-- Variables
+- Variables:
   - `let` keyword is used to create variables.
   - Variables are immutable by default, meaning once we give the variable a value, the value won’t change.
   - To make a variable mutable, we add `mut` before the variable name.
