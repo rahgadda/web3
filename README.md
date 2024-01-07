@@ -114,7 +114,7 @@
 ## References
 - [Why Solana](https://www.investopedia.com/solana-5210472)
 - [Harkirat Singh - Inspiration](https://www.youtube.com/watch?v=ERAxd8gl1Eg&list=PLVKLWop9wWA9n9NQZ2GURoB_a1gOezN_e&index=3)
-- [DApp University - Inspiration](https://www.youtube.com/watch?v=VH9Q2lf2mNo)
+- [DApp University - Inspiration](https://www.youtube.com/watch?v=VH9Q2lf2mNo), [one more](https://www.youtube.com/watch?v=jcgfQEbptdo)
 - [Hyperledger](https://www.hyperledger.org/)
 - [Freecodecamp - Learn Blockchain](https://www.youtube.com/watch?v=gyMwXuJrbJQ)
 - [Local Blockchain - Truffle Ganache](https://trufflesuite.com/ganache/)
