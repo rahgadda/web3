@@ -76,9 +76,9 @@
   - `Line comments` start with `//` and continue until the end of the line.
   - `Block comments` are enclosed between `/* & */` and can span multiple lines.
   - `Doc comments` used to generate HTML documents for rust code. 
-     - `//!` used at the beginning of a file or module to document the entire module or file.
+    - `//!` used at the beginning of a file or module to document the entire module or file.
     - `///` used to document the individual items following the comment. It's primarily used for documenting functions, structs, enums, traits, modules, and their associated items.
-      - After starting document comment, `#` can be used to dictate Arguments, Returns & Examples using markdown format.
+    - For both sytles, After starting document comment, `#` can be used to dictate Arguments, Returns & Examples using markdown format.
 - Variables:
   - `let` keyword is used to create variables.
   - Variables are immutable by default, meaning once we give the variable a value, the value won’t change.
